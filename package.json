@@ -1,0 +1,24 @@
+{
+	"name": "if-reports",
+	"version": "0.0.1",
+	"description": "Reporting stuff used in InsiderFocus project",
+	"main": "index.js",
+	"dependencies": {
+        "pdfkit": "0.4.3",
+        "dateformat": "1.0.7-1.2.3"
+	},
+	"devDependencies": {
+        "lodash": "~2.1.0",
+        "joi": "~0.3.6",
+		"if-common": "git+ssh://git@github.com:JudeCel/IF-Common-Diatom.git"
+	},
+	"scripts": {
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/JudeCel/IF-Reports-Diatom.git"
+	},
+	"author": "InsiderFocus",
+	"license": "01",
+	"private": true
+}
